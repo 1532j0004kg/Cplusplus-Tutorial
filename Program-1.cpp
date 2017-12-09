@@ -5,7 +5,7 @@ using namespace std;
 class Employee
 {
     private :
-      float basic , pf , hra , da , esi , netPay , allowance , deduction;
+      float basic , pf , hra , da , esi , netPay , allowance , deduction , hm = 0;
       string dept , name , id ;
       int yrs;
     public :
@@ -34,16 +34,44 @@ class Employee
                
                netPay = basic + allowance - deduction;
         }   
-        float print()
+        float net()
         {
             return netPay;
         }
+        string nam()
+        {
+            return name;
+        }
+        string dep()
+        {
+            return dept;
+        }
+        string idd()
+        {
+            return id;
+        }
+        int yr()
+        {
+            return yrs;
+        }
+     
 };
 
 int main()
 {
-    Employee dinesh("dinesh","1532j0004kg","developer",0);
-    dinesh.print();
-    cout<<"Netpay for dinesh : "<<dinesh.print();
+    Employee dinesh("dinesh","1532j0004","developer",0);
+    cout<<"ID                  : "<<dinesh.idd()<<endl;
+    cout<<"Name                : "<<dinesh.nam()<<endl;
+    cout<<"department          : "<<dinesh.dep()<<endl;
+    cout<<"years of experience : "<<dinesh.yr()<<endl;
+    cout<<"Salary              : "<<dinesh.net()<<endl<<endl;
+    
+    Employee david("david","1532j0003","analyst",0);
+    cout<<"ID                  : "<<dinesh.idd()<<endl;
+    cout<<"Name                : "<<dinesh.nam()<<endl;
+    cout<<"department          : "<<dinesh.dep()<<endl;
+    cout<<"years of experience : "<<dinesh.yr()<<endl;
+    cout<<"Salary              : "<<dinesh.net()<<endl;
+    
     return 1;
 }
