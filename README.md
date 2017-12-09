@@ -4,6 +4,7 @@ What is C++?
                   2. It contains classes and objects. 
                    
 C++ concepts?
+
                 1.Abstract.
                 2.Polymorphism.
                 3.Encapsulation.
