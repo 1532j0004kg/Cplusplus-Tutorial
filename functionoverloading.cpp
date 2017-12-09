@@ -13,7 +13,7 @@
     
 int main()
 {
-    cout<<"Area of the circle : "<<  ball.calculateArea(2,2)<<endl;
-    cout<<"Area of the recatangle :"<<ball.calculateArea(2);
+    cout<<"Area of the circle : "<<calculateArea(2,2)<<endl;
+    cout<<"Area of the recatangle :"<<calculateArea(2);
     return 1;
 }
