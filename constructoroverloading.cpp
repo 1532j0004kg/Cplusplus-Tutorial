@@ -20,11 +20,6 @@ class square
          b = breadth;
          area=0;
        }
-      /* square(const obj& obj)
-       {
-           l = obj.l;
-           
-       }*/
        void calculateArea()
        {
           area =  b * l;
@@ -33,19 +28,11 @@ class square
        {
           return area ;
        }
-     /*  void calculateAreaRectangle(){
-          area = 2 * l * b;
-       }
-       void printAreaRectangle()
-       {
-           cout<<"Area of the rectangle : "<<area <<endl;
-       }*/
 };
 int main()
 {
     square square1(9);
     square square2(3,4);
-   // square area2(area1);
     square1.calculateArea();
     
     cout<<"Area of the square :"<<square1.printArea()<<endl;
