@@ -1,9 +1,10 @@
 What is C++?
 
                   1. C++ is a combination of procedural and oop concept.
-                  2. It contains classes and objects. 
+                  2. It contains classes and objects.
+                  3. It is a superset of c.
                    
-C++ concepts?
+OOP concepts?
 
                 1.Abstract.
                 2.Polymorphism.
