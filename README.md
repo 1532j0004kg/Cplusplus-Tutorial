@@ -12,7 +12,7 @@ OOP concepts?
                 4.InformationHiding.
                 5.Inheritance.
                
-function declaration or function definition :
+function declaration :
     
           syntax : returntype functionname(arguments);
           
