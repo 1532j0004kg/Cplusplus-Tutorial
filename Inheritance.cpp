@@ -46,6 +46,35 @@ class Dog : public Animal
            return sniffingLevel;
        }
 };
+class Horse : public Animal
+{
+    private :
+       int runningSpeed;
+    public :
+          Horse()
+          {
+              runningSpeed = 80;
+          }
+          int speed()
+          {
+              return runningSpeed;
+          }
+    
+};
+class Donkey : public Animal
+{
+    private :
+      string workingAbility;
+    public :
+       Donkey()
+       {
+           workingAbility = "high";
+       }
+       string work()
+       {
+           return workingAbility;
+       }
+};
 int main()
 {
     Animal petAnimal;
@@ -56,7 +85,14 @@ int main()
     Dog barker;
     cout<<barker.move()<<endl;
     cout<<barker.makeSound()<<endl;
-    cout<<"Sniffing Level : "<<barker.sniffingLevel();
+    cout<<"Sniffing Level : "<<barker.sniff()<<endl;
  
+    Horse healer;
+    cout<<healer.move()<<endl;
+    cout<<"Running speed : "<<healer.speed()<<endl;
+    
+    Donkey driver;
+    cout<<driver.move()<<endl;
+    cout<<"Working ability : "<<driver.work()<<endl;
     return 1;
 }
