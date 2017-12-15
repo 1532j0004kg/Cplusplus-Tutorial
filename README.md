@@ -30,5 +30,11 @@ function definition :
                     {
                        cout<<"Hello World!";
                     }
-
-                
+                 
+Method signature :
+               
+          syntax : returntype methodname ( arguments ) ;   
+          
+          definition :
+              method name with order of parameter , parameters datatype , no.of parameter with the return type of the method.
+                                                           
