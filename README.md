@@ -35,12 +35,15 @@ Method signature :
                
           syntax : returntype methodname ( arguments ) ;   
           
-          definition :
-              method name with order of parameter , parameters datatype , no.of parameter with the return type of the method.
- Abstract class:
+          definition : method name with order of parameter , parameters datatype , no.of parameter with the return type of the method.
+              
+Abstract class:
     
     definition : The class contains the pure virtual function is known as Abstract class.
     
     syntax : virtual methodname() = 0 ;
+   
+   note:
+     *we can't able to create object for the Abstract class.
         
         
